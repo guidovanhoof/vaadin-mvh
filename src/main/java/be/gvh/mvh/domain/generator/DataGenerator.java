@@ -1,20 +1,6 @@
 package be.gvh.mvh.domain.generator;
 
-import be.gvh.mvh.domain.repository.CompanyRepository;
-import be.gvh.mvh.domain.repository.ContactRepository;
-import be.gvh.mvh.domain.repository.StatusRepository;
-import com.vaadin.exampledata.DataType;
-import com.vaadin.exampledata.ExampleDataGenerator;
 import com.vaadin.flow.spring.annotation.SpringComponent;
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Random;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Bean;
 
 @SpringComponent
 public class DataGenerator {
